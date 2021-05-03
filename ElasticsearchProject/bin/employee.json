@@ -1,0 +1,33 @@
+{
+	"body" : {
+	  "type" : "text"
+	},
+	"dayOfBrith" : {
+	  "type" : "text",
+	  "fields" : {
+		"keyword" : {
+		  "type" : "keyword"
+		},
+		"date_nanos" : {
+		  "type" : "date_nanos"
+		}
+	  }
+	},
+	"employeeName" : {
+	  "type" : "text",
+	  "fields" : {
+		"keyword" : {
+		  "type" : "keyword"
+		}
+	  }
+	},
+	"sex" : {
+	  "type" : "text",
+	  "fields" : {
+		"keyword" : {
+		  "type" : "keyword",
+		  "ignore_above" : 256
+		}
+	  }
+	}
+}	
